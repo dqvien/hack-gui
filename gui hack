@@ -29,7 +29,7 @@ label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 label.BackgroundTransparency = 0.500
 label.Size = UDim2.new(0, 247, 0, 50)
 label.Font = Enum.Font.SourceSans
-label.Text = "SKID GUI 2.0"
+label.Text = "SKID GUI 2.0 by johnny sins"
 label.TextColor3 = Color3.fromRGB(0, 0, 0)
 label.TextSize = 14.000
 

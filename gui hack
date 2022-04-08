@@ -1,0 +1,73 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local lowlowgfx = Instance.new("TextButton")
+local trashtalk = Instance.new("TextButton")
+local lock = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(161, 183, 255)
+main.Position = UDim2.new(0.0416666903, 0, 0.411042899, 0)
+main.Size = UDim2.new(0, 247, 0, 281)
+main.Active = true
+main.Draggable = true
+
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+label.BackgroundTransparency = 0.500
+label.Size = UDim2.new(0, 247, 0, 50)
+label.Font = Enum.Font.SourceSans
+label.Text = "SKID GUI 2.0"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextSize = 14.000
+
+lowlowgfx.Name = "low low gfx"
+lowlowgfx.Parent = main
+lowlowgfx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lowlowgfx.Position = UDim2.new(0.0931174085, 0, 0.266903907, 0)
+lowlowgfx.Size = UDim2.new(0, 200, 0, 50)
+lowlowgfx.Font = Enum.Font.SourceSans
+lowlowgfx.Text = "low gfx"
+lowlowgfx.TextColor3 = Color3.fromRGB(0, 0, 0)
+lowlowgfx.TextSize = 14.000
+lowlowgfx.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dqvien/yes-yes/main/bad%20graphics",true))();
+end)
+
+trashtalk.Name = "trash talk"
+trashtalk.Parent = main
+trashtalk.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+trashtalk.Position = UDim2.new(0.0931174085, 0, 0.508896768, 0)
+trashtalk.Size = UDim2.new(0, 200, 0, 50)
+trashtalk.Font = Enum.Font.SourceSans
+trashtalk.Text = "trash talk"
+trashtalk.TextColor3 = Color3.fromRGB(0, 0, 0)
+trashtalk.TextSize = 14.000
+trashtalk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dqvien/ncbdxc/main/trash%20talk",true))();
+end)
+
+lock.Name = "lock"
+lock.Parent = main
+lock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lock.Position = UDim2.new(0.0931174085, 0, 0.758007109, 0)
+lock.Size = UDim2.new(0, 200, 0, 50)
+lock.Font = Enum.Font.SourceSans
+lock.Text = "lock"
+lock.TextColor3 = Color3.fromRGB(0, 0, 0)
+lock.TextSize = 14.000
+trashtalk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/dqvien/mr-lol/main/trash%20kid",true))();
+end)
